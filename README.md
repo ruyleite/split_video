@@ -22,8 +22,11 @@ Já para um video de filme ou que tenha troca de cenas, em especial plano de fun
 
 ## Pre-requisitos:
 python3
+
 GPU(NVIDIA) - não obrigatório, mas deixa o processo mais rápido.
+
 cuda - uso em combinação com a GPU
+
 opencv
 
 ## Instalação:
