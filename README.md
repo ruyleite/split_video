@@ -45,8 +45,11 @@ pip3 install -r requirements.txt
 usage: split_video.py -f FILENAME [-s STEP] [-t THRESHOLD] [-c]
 
 -f ou --filename = path e nome do arquivo de vídeo a ser analizado.
+
 -s ou --step = Número de frames para comparação inicial, quando não informado ou "0" será assumido o FPS do vídeo.
+
 -t ou --threshold = Percentual minimo para indicar se um frame é igual ao outro, o padrão é 90%.
+
 -c ou --clip_only = realiza somente o split dos clips, é necessário que o arquivo já tenha sido analizado, para confirmar verifique junto ao video se existe um arquivo json com o seguinte padrão NOME_ARQUIVO_VIDEO.json.
 
 
